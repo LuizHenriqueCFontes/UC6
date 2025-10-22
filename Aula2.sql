@@ -30,3 +30,35 @@ INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
 VALUES
 (8, 'João Guilherme Monteiro', 'rhavialmeida@example.com', 'm`U#zHEN$1', '(084) 7065 8106', '492.018.753-04', NOW());
 
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(9, 'Sr. Gustavo Hrenrique Sales', 'isabel82@example.com', '(NRau1UJm(h', '(051) 9384 9974', '038. 674.295-29', NOW() ); 
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(10, 'Thales Albuquerque', 'natalia12@example.com', '8+7qDkf7h', '0800-510-2185', '408.653.792-38', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(11, 'Giovanna Rios', 'fernand53@example.com.org', ')5IGo%InwW', '(051) 84649861', '842.367.905.56', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(12, 'Valentina Barbosa', 'camaraalexia@example.org', 'C#47Nurq%!', '51 5832 3509', '318.427.965-00', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(13, 'Valentim Brito', 'maya68@exxample.org', 'I2ulZzs@^Z', '0500 135 3507', '379.615.208-21', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(14, 'Diogo Ribeiro', 'abreusamuel@example.org', 'cw4Pqvgi(8', '(081) 6698 2752', '629.083.751-68', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular)
+VALUES
+(15, 'Arthur da Cunha', 'portobruna@example.net', '2eJHFMp^@3', '(041) 5259 7462', '052.846.391.89', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular)
+VALUES
+(16, 'Davi Lucas Araújo', 'eloah29@example.com', '%k+6VOZ@10', '84 6615 4842', '357.096.824-38', NOW());
+
