@@ -54,11 +54,90 @@ INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
 VALUES
 (14, 'Diogo Ribeiro', 'abreusamuel@example.org', 'cw4Pqvgi(8', '(081) 6698 2752', '629.083.751-68', NOW());
 
-INSERT INTO usuarios(id, nome, email, senha, celular)
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
 VALUES
 (15, 'Arthur da Cunha', 'portobruna@example.net', '2eJHFMp^@3', '(041) 5259 7462', '052.846.391.89', NOW());
 
-INSERT INTO usuarios(id, nome, email, senha, celular)
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
 VALUES
 (16, 'Davi Lucas Araújo', 'eloah29@example.com', '%k+6VOZ@10', '84 6615 4842', '357.096.824-38', NOW());
 
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(17, 'Diogo Vargas', 'bernardo68@example.org', 's@5Laq', '0300-406-2820', '387.496.152-46', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES	
+(18, 'Maria Helena Viana', 'maria-alice77@example.net', 'd7Yus(Xy!h', '0500 180 9778', '015.938.762-03', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(19, 'Levi Moreira', 'calebcampos@example.com', 'b)3(Qj0TmU', '+55 (021) 1134 0001', '468.375.192-55', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(20, 'Helena Gomes', 'fviana@example.net', 'H$2Ux)h2xC', '61 9167-0558', '830.196.745-57', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(21, 'Kevin Montenegro', 'mendeslorena@example.org', 'OXUjcWcy(5', '41 8904 2994', '427.953.061-07', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em) 
+VALUES
+(22, 'Luna Pastor', 'ceciliacarvalho@example.org', '4_R371Wgq&', '(031) 1965-6865', '184.692.730-78', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(23, 'Dra. Lavínia das Neves', 'oda-mota@exemple.org', 'c^5Qf26_8n', '+55 (031) 4800 3477', '203.451.876-44', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(24, 'Pietra Caldeira', 'marcela81@example.net', '8meScbSs&4', '0500-330-3930', '049.527.631-61', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(25, 'Miguel da Cunha', 'vasconceloscaroline@example.org', '^3Mona*n$d', '+55 11 6129 8519', '572.190.483-60', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(26, 'Lucas Gabriel Leão', 'ypacheco@example.org', '*f4^Ycllih', '0800 150 6655', '136.204.798-87', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(27, 'Yasmin da Mata', 'cunhajoana@example.org', '035Cubt1x!', '(011) 9674 5124', '603. 927.548-00', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(28, 'Laís Lima', 'pimentabrenda@example.com', '@uNqyWQ634', '+55 41 6994-2949', '406.519.783-00', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(29, 'davi Luiz Borges', 'alanaaparecida@example.org', '^k3h6%bN9%', '+55 41 6994 2949', '406.519.783-00', NOW());
+
+INSERT INTO usuarios(id, nome, email, senha, celular, cpf, criado_em)
+VALUES
+(30, 'Leandro Almeida', 'beniciomendes@example.net', 'D#B0UzATDh', '84 1893-8870', '076.432.851-44', NOW());
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(1, 1, 'Colônia Rodrigo Mendes', '6774', 'Embaúbas', 'Ferreira', 'SC', '18944-467');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(2, 2, 'Campo Costa', '8986', 'Jardim Alvorada', 'da Conceição', 'Pi', '23171310');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(3, 3, 'Recanto Maria Luísa Marques', '2645', 'Eymard', 'Rocha', 'AP', '70493-924');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(4, 4, 'Rodovia de Casa Grande', '573', 'Distrito Industrial Do Jatoba', 'Almeida', 'RO', '71542-894');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(5, 5, 'Alameda Viana', '1251', 'Mangueiras', 'da Cruz', 'PI', '70803966');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(6, 6, 'Passarela da Conceição', '4842', 'Vila Boa Vista', 'Cunha do Dourados', 'TO', '49770-926');
