@@ -9,7 +9,8 @@ CREATE TABLE clientes(
 	nome VARCHAR(100) NOT NULL,
 	email VARCHAR(100) UNIQUE NOT NULL,
     senha VARCHAR(10) NOT NULL,
-    telefone VARCHAR(20),
+    celular VARCHAR(20),
+	cpf VARCHAR(15),
     criado_em DATETIME DEFAULT CURRENT_TIMESTAMP
 
 );
@@ -51,8 +52,6 @@ CREATE TABLE itens_pedido(
 
 );
 
-ALTER TABLE clientes
-CHANGE COLUMN telefone celular VARCHAR(15);
 
 DESCRIBE clientes;
 
@@ -60,8 +59,7 @@ RENAME TABLE clientes TO usuarios;
 
 SHOW TABLES;
 
-ALTER TABLE usuarios
-ADD COLUMN telefone VARCHAR(12) AFTER email;
+
 
 DESCRIBE usuarios;
 
