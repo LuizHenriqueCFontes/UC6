@@ -657,3 +657,63 @@ VALUES
 INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
 VALUES
 (15, 15, 18, 1, 428.92);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(16, 16, 4, 3, 98.72);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(17, 17, 3, 1, 353.02);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(18, 18, 21, 5, 123.72);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(19, 19, 14, 2, 404.81);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(20, 20, 4, 1, 143.73);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(21, 21, 22, 1, 424.38);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(22, 22, 2, 2, 132.86);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(23, 23, 28, 4, 131.85);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(24, 24, 15, 2, 328.23);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(25, 25, 8, 1, 127.88);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(26, 26, 27, 2, 71.17);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(27, 27, 22, 4, 438.16);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(28, 28, 19, 3, 10.52);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(29, 29, 21, 1, 61.99);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(30, 30, 5, 4, 422.43);
