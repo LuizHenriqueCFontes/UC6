@@ -64,3 +64,36 @@ CREATE TABLE itens_pedido(
     preco_unitario DECIMAL(10, 2) NOT NULL
 
 );
+
+ALTER TABLE clientes
+CHANGE COLUMN telefone celular VARCHAR(15);
+
+DESCRIBE clientes;
+
+RENAME TABLE clientes TO usuarios;
+
+SHOW TABLES;
+
+ALTER TABLE usuarios
+ADD COLUMN telefone VARCHAR(12) AFTER email;
+
+ALTER TABLE usuarios
+ADD COLUMN cpf VARCHAR(15) AFTER telefone;
+
+ALTER TABLE usuarios
+MODIFY celular VARCHAR(20);
+
+
+
+
+ALTER TABLE usuarios
+DROP COLUMN telefone;
+
+ALTER TABLE enderecos
+ADD COLUMN cep VARCHAR(9);
+
+
+
+
+
+
