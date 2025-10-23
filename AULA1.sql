@@ -4,13 +4,13 @@ DEFAULT COLLATE utf8_general_ci;
 
 USE ecommerce;
 
-CREATE TABLE clientes(
+CREATE TABLE usuarios(
 	id INT AUTO_INCREMENT PRIMARY KEY,
 	nome VARCHAR(100) NOT NULL,
 	email VARCHAR(100) UNIQUE NOT NULL,
     senha VARCHAR(10) NOT NULL,
-    celular VARCHAR(20),
-	cpf VARCHAR(15),
+    celular VARCHAR(20) NOT NULL,
+    cpf VARCHAR(15),
     criado_em DATETIME DEFAULT CURRENT_TIMESTAMP
 
 );
@@ -23,7 +23,8 @@ CREATE TABLE enderecos(
     complemento VARCHAR(100),
     bairro VARCHAR(50),
     cidade VARCHAR(50),
-    estado CHAR(2)
+    estado CHAR(2),
+    cep VARCHAR(9)
 
 );
 
@@ -36,10 +37,22 @@ CREATE TABLE categorias(
 
 CREATE TABLE produtos(
 	id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255),
+    descricao TEXT,
+    preco DECIMAL(10, 2),
+    estoque INT,
+    categoria_id TINYINT
+
+);
+
+CREATE TABLE pedidos(
+	id INT,
     cliente_id INT,
-    data_pedido DATETIME DEFAULT CURRENT_TIMESTAMP,
-    status VARCHAR(50) DEFAULT 'Pendente',
-    total DECIMAL(10, 2)
+    data_pedido TIMESTAMP,
+    status TINYTEXT,
+    total DECIMAL(10, 2),
+    
+    PRIMARY KEY(id)
 
 );
 
@@ -51,15 +64,3 @@ CREATE TABLE itens_pedido(
     preco_unitario DECIMAL(10, 2) NOT NULL
 
 );
-
-
-DESCRIBE clientes;
-
-RENAME TABLE clientes TO usuarios;
-
-SHOW TABLES;
-
-
-
-DESCRIBE usuarios;
-
