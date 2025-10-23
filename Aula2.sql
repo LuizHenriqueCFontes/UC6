@@ -141,3 +141,307 @@ VALUES
 INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
 VALUES
 (6, 6, 'Passarela da Conceição', '4842', 'Vila Boa Vista', 'Cunha do Dourados', 'TO', '49770-926');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(7, 7, 'Rua Gomes', '5214', 'Novo Ouro Preto', 'Araujo', 'DF', '10827-869');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(8, 8, 'Quadra de Silveira', '4420', 'Sao Marcos', 'Siqueira', 'SP', '90132-551');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(9, 9, 'Condominio Castro', '3400', 'Minas Brasil', 'Moura', 'PB', '81642931');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(10, 10, 'Recanto Araujo', '9068', 'Santa Margarida', 'Ramos', 'SC', '9005545');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(11, 11, 'Aeroporto Asafe Marques', '8622', 'Jardim Alvorada', 'Cavalcante de Rezende', 'AL', '40545901');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(12, 12, 'Recanto de Pimenta', '7841', 'Marieta 1ª Seção', 'da Costa', 'AM', '39302-845');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(13, 13, 'Condominio Davi Lucca Camargo', '9520', 'Ademar Maldonado', 'Silva das Flores', 'PI', '31007-405');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(14, 14, 'Distrito Caldeira', '1461', 'Vila Independencia 2ª Seção', 'Barbosa', 'MT', '35653-821');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(15, 15, 'Residencial Dias', '8818', 'Vale Do Jatoba', 'Souza', 'SE', '23141922');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(16, 16, 'Ladeira de da Cunha', '663', 'Jardim Do Vale', 'Camargo', 'GO', '70202922');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(17, 17, 'Vale Anthony Gabriel Fonseca', '3442', 'João Paulo Ii', 'Garcia dos Dourados', 'PA', '33112-332');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(18, 18, 'Setor de Melo', '6598', 'Alto Dos Pinheiros', 'Porto de Goias', 'ES', '69153076');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(19, 19, 'Fazenda Silva', '2485', 'Sao Damiao', 'Borges', 'RO', '72931233');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(20, 20, 'Estacao Diogo Farias', '8081', 'Aguas Claras', 'Camara', 'AP', '34107-701');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(21, 21, 'Morro de Campos', '8038', 'Vila Cloris', 'Camargo', 'RN', '25134058');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(22, 22, 'Largo Davi Barros', '51', 'Etelvina Carneiro', 'Costela', 'SE', '42269-092');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(23, 23, 'Vila de Pacheco', '9854', 'Sao Lucas', 'Rodrigues', 'MT', '44976500');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(24, 24, 'Passarela Oliveira', '9669', 'Vila Antena', 'Barbosa', 'PI', '68681-824');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(25, 25, 'Chacara de da Mota', '1327', 'Sao Gabriel', 'Cirino Grande', 'AM', ' 48510-279');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(26, 26, 'Travessa Jose Miguel Melo', '439', 'Estrela', 'Moreira das Flores', 'MA', '04000888');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(27, 27, 'Aeroporto de Teixeira', '3971', 'Alcaiaca', 'Teixeira', 'PB', '25973800');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(28, 28, 'Alameda de Farias', '4596', 'Sao Bento', 'Fogaca', 'PI', '60487206');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(29, 29, 'Estacao da Costa', '9950', 'Vila Paraiso', 'Sa', 'BA', '83837225');
+
+INSERT INTO enderecos(id, cliente_id, rua, numero, bairro, cidade, estado, cep)
+VALUES
+(30, 30, 'Morro Ayla Sales', '1627', 'Cidade Jardim', 'Cassiano Paulista', 'RO', '90962671');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(1, 'Roupas', 'Categoria de roupas');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(2, 'Esportes', 'Categoria de esportes');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(3, 'Livros', 'Categoria de esportes');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(4, 'Roupas', 'Categoria de roupas');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(5, 'Roupas', 'Categoria de roupas');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(6, 'Roupas', 'Categoria de roupas');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(7, 'Livros', 'Categoria de livros');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(8, 'Roupas', 'Categoria de roupas');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(9, 'Esportes', 'Categoria de esportes');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(10, 'Roupas', 'Categoria de roupas');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(11, 'Roupas', 'Categoria de roupas');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(12, 'Eletronicos', 'Categoria de eletronicos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(13, 'Eletronicos', 'Categoria de eletronicos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(14, 'Eletronicos', 'Categoria de eletronicos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(15, 'Livros', 'Categoria de livros');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(16, 'Eletronicos', 'Categoria de eletronicos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(17, 'Livros', 'Categoria de livros');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(18, 'Eletronicos', 'Categoria de eletronicos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(19, 'Eletronicos', 'Categoria de eletronicos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(20, 'Eletronicos', 'Categoria de eletronicos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(21, 'Esportes', 'Categoria de esportes');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(22, 'Eletronicos', 'Categoria de eletronicos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(23, 'Eletronicos', 'Categoria de eletronicos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(24, 'Eletronicos', 'Categoria de eletronicos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(25, 'Brinquedos', 'Categoria de brinquedos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(26, 'Eletronicos', 'Categoria de eletronicos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(27, 'Roupas', 'Categoria de roupas');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(28, 'Brinquedos', 'Categoria de brinquedos');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(29, 'Livros', 'Categoria de livros');
+
+INSERT INTO categorias(id, nome, descricao)
+VALUES
+(30, 'Esportes', 'Categoria de esportes');
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(1, 'Blanditiis', 'Earum consectetur ut adipisci', 291.33, 62, 3);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(2, 'Culpa', 'Iure asperiores cupidiate et maiores possimus.', 813.1, 39, 4);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(3, 'Ipsum', 'Recusandae vel saepe doloribus et.', 734.41, 80, 3);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(4, 'Cum', 'Nostrum incidunt maiores.', 715.79, 15, 5);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(5, 'Vel', 'Placeat veniam enim.', 628,13, 58, 5);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(6, 'Recusandae', 'Deleniti distinctio neque sit assumenda dolore natus sit.', 370,25, 45, 1);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(7, 'Asperiores', 'Dolor modi omnis maiores alias.', 226.26, 7, 4);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(8, 'Ipsam', 'Cumque assumenda excepturi at.', 837.26, 27, 4);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(9, 'Vero', 'Adipisci sequi laboriosam nostrum resusandae ipsum ducimus pariatur.', 989.6, 3, 2);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(10, 'Aliquam', 'Id fugit nam nulla animi occaecati.', 30.71, 7, 3);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(11, 'Sequi', 'Corrupti itaque labore necessitatibus maxime id.', 430.21, 77, 3);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(12, 'Consequatur', 'Dicta alias ipsa hic numquam.', 262.96, 57, 4);
+
+INSERT INTO produtos(id, nome,descricao, preco, estoque, categoria_id)
+VALUES
+(13, 'Error', 'Tempora harum sunt veniam pariatur ut quaerat.', 409.99, 89, 5);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(14, 'Dignissimos', 'Reprehenderit aliquid dignissimos eos debitis provident corrupti.', 240.34, 2, 2);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(15, 'Cumque', 'Saepe dolor nobis assumenda officia.', 35.03, 71, 1);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(16, 'In', 'Occaecati suscipit eum id assumenda nemo.', 261.35, 21, 4);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(17, 'Doloremque', 'Error dolore maxime distinctio minus optio.', 415.93, 70, 2);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(18, 'Dolorem', 'Numquam erro placeat repellendus reiciendis nam odio.', 107.83, 70, 4);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(19, 'Corrupti', 'Atque itaque ipsa totam consectetur alias.', 402.05, 49, 4);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(20, 'Natus', 'Molestias optio libero quae nostrum cum eveniet.', 836.2, 51, 4);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(21, 'Doloremque', 'Excepturi ullam assumenda eaque.', 856.47, 75, 1);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(22, 'Distinctio', 'Exercitationem consequuntur incidunt deserunt voluptatibus quasi provident.', 37.5, 88, 5);
