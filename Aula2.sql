@@ -553,3 +553,107 @@ VALUES
 INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
 VALUES
 (19, 2, NOW(), 'Pago', 1355.04);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(20, 14, NOW(), 'Pendente', 516.55);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(21, 8, NOW(), 'Pago', 150.22);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(22, 17, NOW(), 'Enviado', 180.61);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(23, 24, NOW(), 'Enviado', 1046.39);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(24, 10, NOW(), 'Enviado', 1975.38);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(25, 12, NOW(), 'Cancelado', 542.86);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(26, 6, NOW(), 'Enviado', 496.28);
+
+INSERT INTO pedids(id, cliente_id, data_pedido, status, total)
+VALUES
+(27, 25, NOW(), 'Enviado', 1806.96);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(28, 13, NOW(), 'Pendente', 1663.17);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(29, 11, NOW(), 'Enviado', 945.72);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(30, 29, NOW(), 'Pendente', 1646.93);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(1, 1, 7, 3, 12.97);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(2, 2, 26, 1, 321.53);
+
+INSERT INTO itens_pedido(id, pedido_id, produto_id, quantidade, preco_unitario)
+VALUES
+(3, 3, 18, 5, 186.05);
+
+INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
+VALUES
+(4, 4, 24, 5, 345.67);
+
+INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
+VALUES
+(5, 5, 15, 2, 477.32);
+
+INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
+VALUES
+(6, 6, 14, 1, 63.44);
+
+INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
+VALUES
+(7, 7, 20, 3, 302.83);
+
+INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
+VALUES
+(8, 8, 21, 1, 174.41);
+
+INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
+VALUES
+(9, 9, 1, 1, 330.07);
+
+INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
+VALUES
+(10, 10, 29, 1, 189.62);
+
+INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
+VALUES
+(11, 11, 12, 2, 375.75);
+
+INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
+VALUES
+(12, 12, 12, 2, 69.62);
+
+INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
+VALUES
+(13, 13, 16, 3, 377.08);
+
+INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
+VALUES
+(14, 14, 15, 3, 269.4);
+
+INSERT INTO itens_pedido(id, pedido_id, quantidade, preco_unitario)
+VALUES
+(15, 15, 18, 1, 428.92);
