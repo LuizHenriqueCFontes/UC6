@@ -445,3 +445,111 @@ VALUES
 INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
 VALUES
 (22, 'Distinctio', 'Exercitationem consequuntur incidunt deserunt voluptatibus quasi provident.', 37.5, 88, 5);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(23, 'Eligendi', 'Amet asperiores inventore adisci.',  667.17, 43, 2);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(24, 'Facere', 'Maxime commodi ad nam tenetur nobis.', 305.24, 78, 4);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(25, 'Laborum', 'Saepe accusamus reoellendus eligendi ullam deleniti minima.', 289.29, 19, 1);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(26, 'Ab', 'Nostrum vel harum eius sed.', 383.87, 33, 2);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(27, 'Occaecati', 'Corrupti expedita ea minima,', 951.24, 63, 4);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(28, 'Dolorum', 'Ducimus eos vitae debitis iusto possimus nesciunt architecto.', 800.57, 61, 5);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(29, 'Provident', 'Quam eaque error modi dolores expedita totam.', 465.19, 0, 5);
+
+INSERT INTO produtos(id, nome, descricao, preco, estoque, categoria_id)
+VALUES
+(30, 'Ratione', 'Fuga illum nisi optio veniam soluta', 65.21, 27, 4);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(1, 11, NOW(), 'Cancelado', 905.56);
+
+INSERT INTO	pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(2, 10, NOW(), 'Cancelado', 598.56);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(3, 10, NOW(), 'Pago', 886.63);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(4, 2, NOW(), 'Enviado', 1035.27);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(5, 25, NOW(), 'Enviado', 277.5);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(6, 5, NOW(), 'Pago', 382.46);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(7, 14, NOW(), 'Pago', 1920.37);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(8, 16, NOW(), 'Enviado', 1434.43);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(9, 5, NOW(), 'Cancelado', 496.18);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(10, 29, NOW(), 'Enviado', 446.04);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(11, 3, NOW(), 'Pendente', 1753.79);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(12, 5, NOW(), 'Enviado', 1660.6);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(13, 19, NOW(), 'Pago', 1368.96);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(14, 30, NOW(), 'Cancelado', 1617.92);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(15, 15, NOW(), 'Cancelado', 264.76);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(16, 23, NOW(), 'Enviado', 1837.31);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(17, 17, NOW(), 'Pendente', 1349,9);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(18, 28, NOW(), 'Pendente', 428.79);
+
+INSERT INTO pedidos(id, cliente_id, data_pedido, status, total)
+VALUES
+(19, 2, NOW(), 'Pago', 1355.04);
