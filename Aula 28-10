@@ -1,0 +1,113 @@
+CREATE DATABASE mercadao_max
+DEFAULT CHARACTER SET = utf8
+DEFAULT COLLATE utf8_general_ci;
+
+USE mercadao_max;
+
+CREATE TABLE IF NOT EXISTS loja(
+	id_loja INT AUTO_INCREMENT,
+    nome VARCHAR (255) NOT NULL,
+    cnjpj VARCHAR(20) NOT NULL,
+	
+    PRIMARY KEY(id_loja)
+);
+
+CREATE TABLE IF NOT EXISTS categoria(
+	id_categoria INT AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+	
+    PRIMARY KEY(id_categoria)
+    
+);
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS produto(
+	id_produto INT AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    categoria_id INT NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL,
+    unidade INT UNSIGNED NOT NULL,
+    
+    PRIMARY KEY(id_produto)
+
+);
+
+
+
+
+CREATE TABLE IF NOT EXISTS fornecedor(
+	id_fornecedor INT AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    cnpj VARCHAR(20) UNIQUE,
+    
+    PRIMARY KEY(id_fornecedor)
+
+);
+
+CREATE TABLE IF NOT EXISTS lote(
+	id_lote INT AUTO_INCREMENT,
+    produto_id INT NOT NULL,
+    fornecedor_id INT NOT NULL,
+    validade DATE,
+	quantidade INT UNSIGNED NOT NULL,
+    
+    PRIMARY KEY(id_lote)
+    
+);
+
+
+
+CREATE TABLE IF NOT EXISTS venda(
+	id_venda INT AUTO_INCREMENT,
+    loja_id INT NOT NULL,
+    data_venda DATE NOT NULL,
+    
+    PRIMARY KEY(id_venda)
+
+);
+
+
+CREATE TABLE IF NOT EXISTS item_venda(
+	id_item_venda INT AUTO_INCREMENT,
+    venda_id INT NOT NULL,
+    produto_id INT NOT NULL,
+    quantidade INT UNSIGNED NOT NULL,
+    preco_unit DECIMAL(10, 2) UNSIGNED NOT NULL,
+    
+    PRIMARY KEY(id_item_venda)
+	
+);
+
+ALTER TABLE item_venda
+ADD COLUMN produto_id INT NOT NULL after venda_id;
+
+
+ALTER TABLE produto 
+ADD CONSTRAINT fk_produto_categoria
+FOREIGN KEY(categoria_id) REFERENCES categoria (id_categoria);
+
+ALTER TABLE lote
+ADD CONSTRAINT fk_lote_produto
+FOREIGN KEY(produto_id) REFERENCES produto(id_produto);
+
+ALTER TABLE lote
+ADD CONSTRAINT fk_lote_fornecedor
+FOREIGN KEY(fornecedor_id) REFERENCES fornecedor(id_fornecedor);
+
+ALTER TABLE venda
+ADD CONSTRAINT fk_venda_loja
+FOREIGN KEY(loja_id) REFERENCES loja(id_loja);
+
+ALTER TABLE item_venda
+ADD CONSTRAINT fk_item_venda_venda
+FOREIGN KEY(venda_id) REFERENCES venda(id_venda);
+
+ALTER TABLE item_venda
+ADD CONSTRAINT fk_item_venda_produto
+FOREIGN KEY(produto_id) REFERENCES produto(id_produto);
+
+
+
