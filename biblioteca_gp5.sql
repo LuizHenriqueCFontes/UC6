@@ -1,3 +1,4 @@
+
 CREATE DATABASE biblioteca_gp5;
 
 USE biblioteca_gp5;
@@ -136,3 +137,19 @@ CREATE TABLE IF NOT EXISTS bibliotecarios(
  ALTER TABLE penalidades
  ADD CONSTRAINT fk_penalidades_emprestimos
  FOREIGN KEY(id_emprestimos) REFERENCES emprestimos(id_emprestimos);
+
+-- Essa parte ficara a criação dos indices
+CREATE INDEX idx_alunos_cpf ON alunos(cpf);
+
+CREATE INDEX idx_professores_cpf ON professores(cpf);
+
+CREATE INDEX idx_bibliotecarios_cpf ON bibliotecarios(cpf);
+
+CREATE INDEX idx_livros_nome ON livros(nome);
+
+CREATE INDEX idx_exemplares_codigo ON exemplares(codigo);
+
+CREATE INDEX idx_emprestimos_data_devolucao ON emprestimos(data_devolucao);
+
+CREATE INDEX idx_reservas_id_livros ON reservas(id_livros);
+
