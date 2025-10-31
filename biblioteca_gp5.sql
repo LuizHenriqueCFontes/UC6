@@ -3,7 +3,7 @@ CREATE DATABASE biblioteca_gp5;
 USE biblioteca_gp5;
  -- Criando as tabelas do db
  
- -- a tabela alunos vai se relacio com usuarios
+ -- a tabela alunos vai se relacionar com usuarios
 CREATE TABLE IF NOT EXISTS alunos(
 	id_alunos INT AUTO_INCREMENT,
     matricula VARCHAR(30) UNIQUE NOT NULL,
