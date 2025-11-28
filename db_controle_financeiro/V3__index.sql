@@ -1,1 +1,0 @@
-CREATE INDEX idx_transacoes_data_transacao ON transacoes(data_transacao);
