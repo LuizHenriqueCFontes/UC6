@@ -24,7 +24,7 @@ LIMIT 1;
 -- procedure para inserir dados dentro de transacoes
 DELIMITER //
 
-CREATE PROCEDURE realizar_tranferencia(IN p_id_contas BIGINT,
+CREATE PROCEDURE realizar_transferencia(IN p_id_contas BIGINT,
 									  IN p_valor DECIMAL(10, 2),
 									  IN p_tipo_transacao VARCHAR(10),
                                       IN p_data_transacao DATE)
@@ -42,7 +42,7 @@ BEGIN
     END IF;
 	
 	INSERT INTO transacoes(id_contas, valor, tipo_transacao, data_transacao)
-    VALUES(p_id_contas_p_valor_p_tipo_transacao_p_data_transacao);
+    VALUES(p_id_contas, p_valor, p_tipo_transacao, p_data_transacao);
 END//
 
 DELIMITER ;
