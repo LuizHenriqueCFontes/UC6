@@ -54,3 +54,66 @@ SELECT nome, estoque, verificar_nivel_estoque(id)
 FROM produtos;
 
 
+DELIMITER $$
+
+CREATE FUNCTION recalcular_total_pedido(pedido_id_param INT)
+RETURNS DECIMAL(10, 2)
+READS SQL DATA
+BEGIN
+	DECLARE total_geral DECIMAL(10, 2);
+    
+    SELECT
+		SUM(ip.quantidade * ip.preco_unitario)
+	INTO total_geral
+    FROM itens_pedido AS ip
+    WHERE ip.pedido_id = pedido_id_param;
+    
+    IF total_geral IS NULL THEN
+		RETURN 0.00;
+        
+	ELSE 
+		RETURN total_geral;
+        
+    END IF;
+END$$
+
+DELIMITER ;
+
+SELECT
+	id,
+    total AS Total_Armazenado,
+    recalcular_total_pedido(id) AS Total_Recalculado
+FROM pedidos;
+
+
+DELIMITER $$
+
+CREATE FUNCTION formatar_endereco(endereco_id INT)
+RETURNS VARCHAR(500)
+READS SQL DATA
+
+BEGIN
+	DECLARE endereco_formatado VARCHAR(500);
+	
+    SELECT 
+		CONCAT(
+			rua, ', ',
+            numero, ' - ',
+            bairro, ', ',
+            cidade, '/',
+            estado, ' - CEP: ',
+            cep
+        )
+	INTO endereco_formatado
+    WHERE id = endreco_id;
+    
+    RETURN endereco_formatado;
+END$$
+
+DELIMITER ;
+
+SELECT 
+	u.nome AS Cliente,
+	formatar_endereco(e.id) AS Endereco_completo
+FROM usuarios AS u
+JOIN enderecos AS e ON u.id = e.cliente_id;
