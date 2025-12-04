@@ -1,0 +1,58 @@
+INSERT INTO tbcostumer(nome, address, phone, email, birthdate)
+VALUES
+	('Paulo Roberto', 'Rua das Pedras, 132, Santa Rosa, SC', '48-32334567', 'joao@hotmail.com', '19871218'),
+	('Maria Paula', 'Rua das Tainhas, 54, Santa Rosa, SC', '48-323342643', 'mario@hotmail.com', '19811113'),
+	('Maria das Dores', 'Rua dos Badejos, 9898, Santa Rosa, SC', '65861413', 'maria@hotmail.com', '19770102'),
+	('Paulo Dutra', 'Rua das Bromelias, 11, Santa Rosa, SC', '48-91918282', 'paula@hotmail.com', '19860101'),
+	('Guilherme da Silva', 'Rua das Pedras, 132Santa Rosa, SC', '48-32334567', 'joao@hotmail.com', '19871218'),
+	('Carlos Henrique', 'Rua das Pitangas, 200, Santa Rosa, SC', '48-988123456', 'carlos.henrique@example.com', '19840512'),
+    ('Fernanda Lopes', 'Rua das Palmeiras, 88, Santa Rosa, SC', '48-998234567', 'fernanda.lopes@example.com', '19900518'),
+    ('João Batista', 'Rua dos Jasmins, 45, Santa Rosa, SC', '48-984567321', 'joao.batista@example.com', '19791222'),
+    ('Juliana Moura', 'Rua das Hortências, 12, Santa Rosa, SC', '48-991234567', 'juliana.moura@example.com', '19880314'),
+    ('Marcelo Farias', 'Av. Central, 342, Santa Rosa, SC', '48-981234765', 'marcelo.farias@example.com', '19810101'),
+    ('Patrícia Gomes', 'Rua das Oliveiras, 56, Santa Rosa, SC', '48-999876543', 'patricia.gomes@example.com', '19921130'),
+    ('Rafael Santos', 'Rua das Araucárias, 333, Santa Rosa, SC', '48-972345678', 'rafael.santos@example.com', '19860219'),
+    ('Simone Andrade', 'Rua das Violetas, 77, Santa Rosa, SC', '48-973214567', 'simone.andrade@example.com', '19891120'),
+    ('Eduardo Martins', 'Rua do Cedro, 942, Santa Rosa, SC', '48-974565432', 'eduardo.martins@example.com', '19930505'),
+    ('Carolina Dias', 'Rua das Bromélias, 18, Santa Rosa, SC', '48-987654321', 'carolina.dias@example.com', '19871205'),
+    ('Renato Cardoso', 'Rua das Figueiras, 190, Santa Rosa, SC', '48-986543210', 'renato.cardoso@example.com', '19751009'),
+    ('Amanda Peixoto', 'Rua das Laranjeiras, 72, Santa Rosa, SC', '48-985667788', 'amanda.peixoto@example.com', '19940217'),
+    ('Marcos Oliveira', 'Rua das Andorinhas, 301, Santa Rosa, SC', '48-984332211', 'marcos.oliveira@example.com', '19820312'),
+    ('Fabiana Ribeiro', 'Rua das Corujas, 16, Santa Rosa, SC', '48-983221144', 'fabiana.ribeiro@example.com', '19891125'),
+    ('Tiago Nogueira', 'Rua das Seringueiras, 402, Santa Rosa, SC', '48-982110045', 'tiago.nogueira@example.com', '19910729'),
+    ('Larissa Martins', 'Rua dos Lírios, 59, Santa Rosa, SC', '48-981220134', 'larissa.martins@example.com', '19860606'),
+    ('Gustavo Silveira', 'Rua dos Cravos, 144, Santa Rosa, SC', '48-972908877', 'gustavo.silveira@example.com', '19901010'),
+    ('Ana Luiza Ramos', 'Rua das Rosas, 700, Santa Rosa, SC', '48-973998822', 'ana.luiza@example.com', '19820520'),
+    ('Paulo Azevedo', 'Rua do Lago Azul, 444, Santa Rosa, SC', '48-971112345', 'paulo.azevedo@example.com', '19890915'),
+    ('Helena Duarte', 'Rua das Amoreiras, 210, Santa Rosa, SC', '48-970556677', 'helena.duarte@example.com', '19921201'),
+    ('Claudio Pires', 'Rua Santa Helena, 88, Santa Rosa, SC', '48-982221133', 'claudio.pires@example.com', '19780303'),
+    ('Beatriz Salles', 'Rua do Sol, 345, Santa Rosa, SC', '48-989332211', 'beatriz.salles@example.com', '19950514'),
+    ('Rodrigo Castaño', 'Rua do Cedro Roxo, 611, Santa Rosa, SC', '48-979887766', 'rodrigo.castano@example.com', '19840228'),
+    ('Letícia Meirelles', 'Rua das Palmeiras, 92, Santa Rosa, SC', '48-971998877', 'leticia.meirelles@example.com', '19911111'),
+    ('Vitor Freitas', 'Rua das Pedreiras, 840, Santa Rosa, SC', '48-972112233', 'vitor.freitas@example.com', '19870707'),
+    ('Patrícia Assunção', 'Rua do Bosque, 391, Santa Rosa, SC', '48-973443221', 'patricia.assuncao@example.com', '19891229'),
+    ('André Teixeira', 'Rua das Sucupiras, 16, Santa Rosa, SC', '48-981112278', 'andre.teixeira@example.com', '19930303'),
+    ('Natália Rezende', 'Rua das Samambaias, 722, Santa Rosa, SC', '48-982889900', 'natalia.rezende@example.com', '19860202'),
+    ('Leonardo Souza', 'Rua das Castanheiras, 933, Santa Rosa, SC', '48-983332211', 'leonardo.souza@example.com', '19800404'),
+    ('Elaine Paiva', 'Rua Beira-Mar, 123, Santa Rosa, SC', '48-984488899', 'elaine.paiva@example.com', '19870513'),
+    ('Davi Cunha', 'Rua das Estrelas, 87, Santa Rosa, SC', '48-989221144', 'davi.cunha@example.com', '19931230'),
+    ('Vanessa Amorim', 'Rua das Pérolas, 65, Santa Rosa, SC', '48-972778899', 'vanessa.amorim@example.com', '19811101'),
+    ('Hugo Ferreira', 'Rua das Gaivotas, 128, Santa Rosa, SC', '48-973665544', 'hugo.ferreira@example.com', '19890302'),
+    ('Jéssica Cardoso', 'Rua dos Pardais, 276, Santa Rosa, SC', '48-975889900', 'jessica.cardoso@example.com', '19920119'),
+    ('Samuel Vieira', 'Rua das Hortaliças, 335, Santa Rosa, SC', '48-987112233', 'samuel.vieira@example.com', '19830421'),
+    ('Tatiane Pacheco', 'Rua das Safiras, 19, Santa Rosa, SC', '48-986665544', 'tatiane.pacheco@example.com', '19871017'),
+    ('Bruno Almeida', 'Rua das Palmeiras, 1000, Santa Rosa, SC', '48-981114455', 'bruno.almeida@example.com', '19900909'),
+    ('Isabela Rocha', 'Rua das Violetas, 49, Santa Rosa, SC', '48-982223344', 'isabela.rocha@example.com', '19850323'),
+    ('Rogério Mendonça', 'Rua dos Cedros, 250, Santa Rosa, SC', '48-983778899', 'rogerio.mendonca@example.com', '19791230'),
+    ('Mariana Lira', 'Rua das Araras, 501, Santa Rosa, SC', '48-984556677', 'mariana.lira@example.com', '19940808');
+
+	SELECT * FROM tbcostumer
+
+	SELECT
+		code,
+		nome,
+		GETDATE() AS [Data_Atual],
+		GETDATE() + 5 AS [Data Atual + Cinco Dias]
+	FROM tbcosutumer;
+
+
